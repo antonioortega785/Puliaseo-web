@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* primera hoja de estilos */
+
+body{
+  background-color:#abf;
+}
+header{
+  background-color:#7bd;
+}
+li{
+  background-color: #c88;
+  display: inline;
+}
+#cabecera{
+  background-color:#4a8;
+}
+#barraLateral{
+  background-color:#abf;
+  float:left;
+  height: 1000px;
+}
+#barraCentral{
+  margin-left: 20px
+}
