@@ -1,24 +1,83 @@
 @charset "UTF-8";
 /* primera hoja de estilos */
+@font-face {
+  font-family: "texto_original";
+  src: url("avenir.otf");
+}
 
 body{
-  background-color:#abf;
+  font-family: "texto_original";
+  background-color:#fff;
 }
 header{
-  background-color:#7bd;
+  font-size: 200%;
+  background-color:#fff;
 }
-li{
-  background-color: #c88;
-  display: inline;
+p{
+  text-align: center;
 }
 #cabecera{
-  background-color:#4a8;
+  width: 350px;
+  text-align: center;
 }
-#barraLateral{
-  background-color:#abf;
-  float:left;
-  height: 1000px;
+#colo_titu_1{
+  color: #008;
 }
-#barraCentral{
-  margin-left: 20px
+#colo_titu_2{
+  color: #08c;
+}
+nav{
+  background-color: #37f;
+}
+#ul_principal{
+  padding: 61px;
+}
+#navegacion{
+  margin-left: 10px;
+  display: inline;
+  text-shadow: #88f 2px 2px;
+  font-size: 170%;
+}
+#img_inicio{
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+#art_inicio{
+  width:  50%;
+  margin-left: auto;
+}
+#texto_1_1{
+
+  font-size: 150%;
+  padding: 80px;
+}
+#texto_1_2{
+  font-size: 175%;
+  color: #89f;
+  text-shadow: #369 1px 1px;
+}
+#texto_1_3{
+  font-size: 150%;
+  color: #8bf;
+  text-shadow: #78c 1px 1px;
+}
+#servicios{
+  clear: both;
+}
+@media (min-width: 731px) {
+  #cabecera{
+    float: left;
+  }
+  #ul_principal{
+    margin-left: 350px;
+  }
+}
+@media (max-width: 730px) {
+  #img_inicio{
+    width: 100%;
+  }
+  #art_inicio{
+    width: 100%;
+  }
 }
